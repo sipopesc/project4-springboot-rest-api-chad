@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Authority implements GrantedAuthority {
 
+    @SuppressWarnings("unused")
     private String authority;
 
     public Authority(String authority) {
